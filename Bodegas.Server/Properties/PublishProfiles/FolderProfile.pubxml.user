@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\RetizDev\Aquacolors\Bodegas\Bodegas.Server\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-07-27T05:25:39.0583175Z;True|2024-07-26T01:36:05.4118611-06:00;True|2024-07-26T01:19:36.0807694-06:00;True|2024-07-25T13:15:12.5946591-06:00;True|2024-07-25T12:57:07.4803854-06:00;True|2024-07-24T00:24:03.7718447-06:00;True|2024-07-23T20:58:26.3967673-06:00;True|2024-07-23T14:01:26.9523326-06:00;True|2024-07-23T11:09:38.0321138-06:00;True|2024-07-23T00:31:34.4223712-06:00;True|2024-07-22T21:11:56.9560812-06:00;True|2024-07-22T20:35:16.7115107-06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="cnnSQL">
+      <Value>Server=72.29.120.28\MSSQLSERVER2017%3b DataBase=retizdev_bodegas%3b User Id=retizdev_bodegas%3bPassword=LunaRetiz3004./%3b TrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

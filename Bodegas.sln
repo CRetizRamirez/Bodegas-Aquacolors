@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bodegas.Server", "Bodegas.Server\Bodegas.Server.csproj", "{D47E3318-4B56-473C-88EF-F39099B71C81}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "bodegas.client", "bodegas.client\bodegas.client.esproj", "{5F8B31FE-E991-46CE-8634-C3C5361D3E14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D47E3318-4B56-473C-88EF-F39099B71C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47E3318-4B56-473C-88EF-F39099B71C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47E3318-4B56-473C-88EF-F39099B71C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47E3318-4B56-473C-88EF-F39099B71C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8B31FE-E991-46CE-8634-C3C5361D3E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8B31FE-E991-46CE-8634-C3C5361D3E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8B31FE-E991-46CE-8634-C3C5361D3E14}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F8B31FE-E991-46CE-8634-C3C5361D3E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8B31FE-E991-46CE-8634-C3C5361D3E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8B31FE-E991-46CE-8634-C3C5361D3E14}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FC3E50C-1F05-4392-B565-17CCBC93BF09}
+	EndGlobalSection
+EndGlobal

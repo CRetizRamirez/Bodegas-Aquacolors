@@ -1,0 +1,6 @@
+@Bodegas.Server_HostAddress = http://localhost:5198
+
+GET {{Bodegas.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
