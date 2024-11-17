@@ -100,6 +100,7 @@ function Encargado() {
             })
             reset();
             leerStockSP();
+            leerStockCompletoSP();
         } catch (error) {
             console.error('Error en onSubmit', error);
         }
@@ -237,7 +238,7 @@ function Encargado() {
             <input
                 className="form-control mt-5"
                 type="text"
-                placeholder="🔎  Buscar ..."
+                placeholder="🔎  Buscar artículo ..."
                 onChange={search}
             />
 
@@ -375,7 +376,6 @@ function Encargado() {
                     </form>
                 </ModalBody>
             </Modal>
-
             
             <Modal isOpen={modalEditarStock}>
                 <ModalHeader>

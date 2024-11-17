@@ -59,7 +59,7 @@ function Vendedor() {
             <input
                 className="form-control mt-4"
                 type="text"
-                placeholder="🔎  Buscar ..."
+                placeholder="🔎  Buscar artículo ..."
                 onChange={search}
             />
 

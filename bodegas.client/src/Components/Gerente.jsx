@@ -102,6 +102,7 @@ function Gerente() {
             })
             reset();
             leerStockSP();
+            leerStockCompletoSP();
         } catch (error) {
             console.error('Error en onSubmit', error);
         }
@@ -291,7 +292,7 @@ function Gerente() {
             <input
                 className="form-control mt-5"
                 type="text"
-                placeholder="🔎  Buscar ..."
+                placeholder="🔎  Buscar artículo ..."
                 onChange={search}
             />
 
